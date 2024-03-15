@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutterui/firstScreen.dart';
+import 'package:flutterui/scondScreen.dart';
 
 main() {
-  runApp(const MyApp());
+  runApp( const MyApp());
 }
 
 
@@ -11,10 +12,11 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return  const MaterialApp(
-      // title:  "FLutter UI",
+    return  MaterialApp(
+      title:  "FLutter UI",
       debugShowCheckedModeBanner: false,
-      home: HomeScreen(),
+      home: SecondScreen()
+
 );
   }
 }
